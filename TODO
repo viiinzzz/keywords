@@ -1,0 +1,5 @@
+ - make keywords extraction work better
+ - add more Programming Language stopword lists
+ - use semantics from PL code and comments, by using specific PL parsers
+ - have a CLI option to use a custom stopword list file
+ - generate the wordcloud, by using templates in front directory - to be templatized
