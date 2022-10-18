@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset=UTF-8>
+    <title>Bonjour tout le monde !</title>
+  </head>
+  <body>
+    <canvas id="word_cloud" class="word_cloud" width="400" height="400"></canvas>
+    <script src="./js/wordcloud2.js"></script>
+    <script src="./words.js"></script>
+    <script>
+        list = [];
+        for (var i in db) {
+        list.push([db[i]["word"], db[i]["freq"]])
+        }
+
+        WordCloud.minFontSize = "15px"
+        WordCloud(document.getElementById('word_cloud'), { list: list} );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "@viiinzzz/kwxtra",
+  "version": "1.0.0",
+  "description": "A command line tool to extract words from text files",
+  "bin": {
+    "keywords": "./bin/main.js"
+  },
+  "files": [
+    "/bin"
+  ],
+  "preferGlobal": true,
+  "author": {
+    "name": "Vincent Fontaine",
+    "email": "vincentfontaine.jobs@gmail.com",
+    "url": "https://github.com/viiinzzz/"
+  },
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "globby": "^13.1.2",
+    "isbinaryfile": "^5.0.0",
+    "keyword-extractor": "^0.0.23",
+    "sort-array": "^4.1.5"
+  }
+}
